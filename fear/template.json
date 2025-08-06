@@ -1,0 +1,38 @@
+{
+  "Actor": {
+    "types": ["character", "npc"],
+    "character": {
+      "abilities": {
+        "strength": { "value": 0, "max": 10 },
+        "agility": { "value": 0, "max": 10 },
+        "durability": { "value": 0, "max": 10 },
+        "knowledge": { "value": 0, "max": 10 },
+        "power": { "value": 0, "max": 10 },
+        "charisma": { "value": 0, "max": 10 },
+        "currentLuck": { "value": 0, "max": 10 },
+        "maxLuck": { "value": 0, "max": 10 }
+      },
+      "skills": {
+        "artillery":     { "value": 0, "max": 10, "attribute": "strength" },
+        "bludgeoning":   { "value": 0, "max": 10, "attribute": "strength" },
+        "espionage":     { "value": 0, "max": 10, "attribute": "agility" },
+        "examination":   { "value": 0, "max": 10, "attribute": "knowledge" },
+        "fraud":         { "value": 0, "max": 10, "attribute": "charisma" },
+        "gadget":        { "value": 0, "max": 10, "attribute": "knowledge" },
+        "intimidation":  { "value": 0, "max": 10, "attribute": "charisma" },
+        "judgment":      { "value": 0, "max": 10, "attribute": "knowledge" },
+        "medical":       { "value": 0, "max": 10, "attribute": "knowledge" },
+        "negotiation":   { "value": 0, "max": 10, "attribute": "charisma" },
+        "occult":        { "value": 0, "max": 10, "attribute": "knowledge" },
+        "perception":    { "value": 0, "max": 10, "attribute": "knowledge" },
+        "presentation":  { "value": 0, "max": 10, "attribute": "charisma" },
+        "science":       { "value": 0, "max": 10, "attribute": "knowledge" },
+        "resolve":       { "value": 0, "max": 10, "attribute": "power" },
+        "tussle":        { "value": 0, "max": 10, "attribute": "strength" }
+      }
+    }
+  },
+  "Item": {
+    "types": ["item", "feature", "spell"]
+  }
+}
